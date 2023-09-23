@@ -1,4 +1,15 @@
 .numberButton{
     display: flex;
     flex-direction: row;
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(167, 217, 217);
 }
