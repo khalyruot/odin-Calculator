@@ -1,15 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    
+}
+
 .numberButton{
     display: flex;
     flex-direction: row;
     height: 300px;
-    width: 300px;
+    width: 400px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+
+#box_input{
+    height: 80px;
+    width: 400px;
+    border: solid gray;
+}
+
+#actionButton{
+    height: 80px;
+    width: 200px;
+}
+
+#main_type{
+    display: flex;
+    flex-direction: row;
 }
 
 button{
     height: 100px;
     width: 100px;
     background-color: rgb(167, 217, 217);
+    border: solid rgb(1, 27, 1);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    
 }
