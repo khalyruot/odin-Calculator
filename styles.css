@@ -6,6 +6,12 @@ body{
     margin: 100px;
     
 }
+input{
+    height: 80px;
+    width: 98%;
+    font-size: 40px;
+    font-weight: bold;
+}
 
 .numberButton{
     display: flex;
@@ -20,6 +26,7 @@ body{
 #box_input{
     height: 80px;
     width: 400px;
+    border-radius: 5px;
     border: solid gray;
 }
 
