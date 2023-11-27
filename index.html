@@ -9,32 +9,35 @@
 </head>
 <body>
 
-    <div id="box_input">
+    <div class="calculator_display">
         <input type="text" id="fname">
     </div>
 
-    <div id="main_type">
-        <div><button id="actionButton">CLEAR</button></div>
-        <div><button id="actionButton">DELETE</button></div>
-    </div>
 
     <div class="numberButton">
-        <div id="number"><button id="one">1</button></div>
-        <div id="number"><button id="two">2</button></div>
-        <div id="number"><button id="three">3</button></div>
-        <div id="signButton"><button id="plus">+</button></div>
-        <div id="number"><button id="four">4</button></div>
-        <div id="number"><button id="five">5</button></div>
-        <div id="number"><button id="six">6</button></div>
-        <div id="signButton"><button id="minus">-</button></div>
-        <div id="number"><button id="seven">7</button></div>
-        <div id="number"><button id="eight">8</button></div>
-        <div id="number"><button id="nine">9</button></div>
-        <div id="signButton"><button id="multiply">x</button></div>
-        <div id="number"><button id="comma">.</button></div>
-        <div id="number"><button id="zero">0</button></div>
-        <div id="signButton"><button id="equal">=</button></div>
-        <div id="signButton"><button id="divide">/</button></div>
+
+        <div id="main_type">
+            <div><button id="actionButton" data-action="clear">CLEAR</button></div>
+            <div><button id="actionButton" data-action="delete">DELETE</button></div>
+        </div>
+
+        
+        <div><button>1</button></div>
+        <div><button>2</button></div>
+        <div><button>3</button></div>
+        <div><button data-action="plus">+</button></div>
+        <div><button>4</button></div>
+        <div><button>5</button></div>
+        <div><button>6</button></div>
+        <div><button data-action="minus">-</button></div>
+        <div><button>7</button></div>
+        <div><button>8</button></div>
+        <div><button>9</button></div>
+        <div><button data-action="multiply">x</button></div>
+        <div><button data-action="comma">.</button></div>
+        <div><button>0</button></div>
+        <div><button data-action="equal">=</button></div>
+        <div><button data-action="divide">/</button></div>
     </div>
 
 </body>

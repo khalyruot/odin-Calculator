@@ -23,7 +23,7 @@ input{
     align-items: center;
 }
 
-#box_input{
+.calculator_display{
     height: 80px;
     width: 400px;
     border-radius: 5px;
