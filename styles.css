@@ -13,7 +13,7 @@ input{
     font-weight: bold;
 }
 
-.numberButton{
+.calculator_keys{
     display: flex;
     flex-direction: row;
     height: 300px;
