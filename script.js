@@ -13,6 +13,21 @@ var multiply = document.querySelector('#multiply');
 var divide = document.querySelector('#divide');
 var comma = document.querySelector('#comma');
 
+function add(p1,p2){
+	return p1+p2;
+}
+
+function sub(p1,p2){
+	return p1-p2;
+}
+
+function multiplication(p1,p2){
+	return p1*p2;
+}
+
+function division(p11,p2){
+	return p1/p2;
+}
 
 one.addEventListener("click", function() {
    console.log("1");
