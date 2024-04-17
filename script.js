@@ -1,3 +1,8 @@
+var firstNumber;
+var operator;
+var secondNumber;
+
+
 var one = document.querySelector('#one');
 var two = document.querySelector('#two');
 var three = document.querySelector('#three');
@@ -13,20 +18,20 @@ var multiply = document.querySelector('#multiply');
 var divide = document.querySelector('#divide');
 var comma = document.querySelector('#comma');
 
-function add(p1,p2){
-	return p1+p2;
+function add(firstNumber,secondNumber){
+	return firstNumber+secondNumber;
 }
 
-function sub(p1,p2){
-	return p1-p2;
+function sub(firstNumber,secondNumber){
+	return firstNumber-secondNumber;
 }
 
-function multiplication(p1,p2){
-	return p1*p2;
+function multiplication(firstNumber,secondNumber){
+	return firstNumber*secondNumber;
 }
 
 function division(p11,p2){
-	return p1/p2;
+	return firstNumber/secondNumber;
 }
 
 one.addEventListener("click", function() {
