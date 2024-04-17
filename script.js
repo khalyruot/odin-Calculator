@@ -1,6 +1,6 @@
-var firstNumber;
-var operator;
-var secondNumber;
+var firstNumber = 30;
+var operator = '-';
+var secondNumber = 50;
 
 
 var one = document.querySelector('#one');
