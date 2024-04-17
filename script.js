@@ -30,7 +30,7 @@ function multiplication(firstNumber,secondNumber){
 	return firstNumber*secondNumber;
 }
 
-function division(p11,p2){
+function division(firstNumber,secondNumber){
 	return firstNumber/secondNumber;
 }
 
