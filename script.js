@@ -34,6 +34,26 @@ function division(firstNumber,secondNumber){
 	return firstNumber/secondNumber;
 }
 
+
+function operate(operator, firstNumber, secondNumber){
+    switch(operator){
+        case '+'
+            return add(firstNumber,secondNumber);
+            break;
+        case '-'
+            return sub(firstNumber,secondNumber);
+            break;
+        case 'x'
+            return multiplication(firstNumber,secondNumber);
+            break;
+        case '/'
+            return division(firstNumber,secondNumber);
+            break;
+    }
+}
+
+
+
 one.addEventListener("click", function() {
    console.log("1");
 });
