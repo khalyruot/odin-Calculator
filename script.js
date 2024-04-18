@@ -37,16 +37,16 @@ function division(firstNumber,secondNumber){
 
 function operate(operator, firstNumber, secondNumber){
     switch(operator){
-        case '+'
+        case '+':
             return add(firstNumber,secondNumber);
             break;
-        case '-'
+        case '-':
             return sub(firstNumber,secondNumber);
             break;
-        case 'x'
+        case 'x':
             return multiplication(firstNumber,secondNumber);
             break;
-        case '/'
+        case '/':
             return division(firstNumber,secondNumber);
             break;
     }
