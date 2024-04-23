@@ -53,6 +53,10 @@ function operate(operator, firstNumber, secondNumber){
 }
 
 
+function generateDisplay(){
+
+	
+}
 
 one.addEventListener("click", function() {
    console.log("1");
