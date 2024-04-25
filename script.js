@@ -2,8 +2,12 @@ var firstNumber = 30;
 var operator = '-';
 var secondNumber = 50;
 
+const one = document.getElementById("one");
+element.addEventListener("click", oneFunction);
+function oneFunction() {
+  console.log("1");
+}
 
-var one = document.querySelector('#one');
 var two = document.querySelector('#two');
 var three = document.querySelector('#three');
 var four = document.querySelector('#four');
