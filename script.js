@@ -6,6 +6,14 @@ const one = document.getElementById("one");
 element.addEventListener("click", oneFunction);
 function oneFunction() {
 	firstNumber = 1;
+	console.log(firstNumber);
+}
+
+const two = document.getElementById("two");
+element.addEventListener("click", twoFunction);
+function twoFunction() {
+	firstNumber = 2;
+	console.log(firstNumber);
 }
 
 
