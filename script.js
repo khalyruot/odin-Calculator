@@ -52,40 +52,44 @@ function operate(operator, firstNumber, secondNumber){
     }
 }
 
+function populate(){
+    
+    one.addEventListener("click", function() {
+        console.log("1");
+     });
+     
+     two.addEventListener("click", function(){
+         console.log("2");
+     });
+     
+     three.addEventListener("click", function(){
+         console.log("3");
+     });
+     
+     four.addEventListener("click", function(){
+         console.log("4");
+     });
+     
+     five.addEventListener("click", function(){
+         console.log("5");
+     });
+     
+     six.addEventListener("click", function(){
+         console.log("6");
+     });
+     
+     seven.addEventListener("click", function(){
+         console.log("7");
+     });
+     
+     eight.addEventListener("click", function(){
+         console.log("8");
+     });
+     
+     nine.addEventListener("click", function(){
+         console.log("9");
+     });
+     
+}
 
 
-one.addEventListener("click", function() {
-   console.log("1");
-});
-
-two.addEventListener("click", function(){
-    console.log("2");
-});
-
-three.addEventListener("click", function(){
-    console.log("3");
-});
-
-four.addEventListener("click", function(){
-    console.log("4");
-});
-
-five.addEventListener("click", function(){
-    console.log("5");
-});
-
-six.addEventListener("click", function(){
-    console.log("6");
-});
-
-seven.addEventListener("click", function(){
-    console.log("7");
-});
-
-eight.addEventListener("click", function(){
-    console.log("8");
-});
-
-nine.addEventListener("click", function(){
-    console.log("9");
-});
