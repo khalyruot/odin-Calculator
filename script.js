@@ -2,20 +2,12 @@ var firstNumber;
 var operator = '-';
 var secondNumber = 50;
 
-const one = document.getElementById("one");
-element.addEventListener("click", oneFunction);
-function oneFunction() {
-	firstNumber = 1;
-	console.log(firstNumber);
-}
-
-const two = document.getElementById("two");
-element.addEventListener("click", twoFunction);
-function twoFunction() {
-	firstNumber = 2;
-	console.log(firstNumber);
-}
-
+const buttonOne = document.querySelector("#one");
+buttonOne.onclick = () => {
+  const name = prompt("What is your name?");
+  alert(`Hello ${name}, nice to see you!`);
+  headingA.textContent = `Welcome ${name}`;
+};
 
 
 function add(firstNumber,secondNumber){
