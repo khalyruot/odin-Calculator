@@ -3,9 +3,66 @@ var operator = '-';
 var secondNumber = 50;
 
 const buttonOne = document.querySelector("#one");
+const buttonTwo = document.querySelector("#two");
+const buttonThree = document.querySelctor("#three");
+const buttonFour = document.querySelector("#four");
+const buttonFive = document.querySelector("#five");
+const buttonSix = document.querySelctor("#six");
+const buttonSeven = document.querySelector("#seven");
+const buttonEight = document.querySelector("#eight");
+const buttonNine = document.querySelctor("#nine");
+
 buttonOne.onclick = () => {
   const name = prompt("What is your name?");
-  alert(`Hello ${name}, nice to see you!`);
+  alert(`Hello ${name}, you just click 1`);
+  headingA.textContent = `Welcome ${name}`;
+};
+
+buttonTwo.onclick = () => {
+  const name = prompt("What is your name?");
+  alert(`Hello ${name}, you just click 2`);
+  headingA.textContent = `Welcome ${name}`;
+};
+
+buttonThree.onclick = () => {
+  const name = prompt("What is your name?");
+  alert(`Hello ${name}, you just click 3`);
+  headingA.textContent = `Welcome ${name}`;
+};
+
+buttonFour.onclick = () => {
+  const name = prompt("What is your name?");
+  alert(`Hello ${name}, you just click 4`);
+  headingA.textContent = `Welcome ${name}`;
+};
+
+buttonFive.onclick = () => {
+  const name = prompt("What is your name?");
+  alert(`Hello ${name}, you just click 5`);
+  headingA.textContent = `Welcome ${name}`;
+};
+
+buttonSix.onclick = () => {
+  const name = prompt("What is your name?");
+  alert(`Hello ${name}, you just click 6`);
+  headingA.textContent = `Welcome ${name}`;
+};
+
+buttonSeven.onclick = () => {
+  const name = prompt("What is your name?");
+  alert(`Hello ${name}, you just click 7`);
+  headingA.textContent = `Welcome ${name}`;
+};
+
+buttonEight.onclick = () => {
+  const name = prompt("What is your name?");
+  alert(`Hello ${name}, you just click 8`);
+  headingA.textContent = `Welcome ${name}`;
+};
+
+buttonNine.onclick = () => {
+  const name = prompt("What is your name?");
+  alert(`Hello ${name}, you just click 9`);
   headingA.textContent = `Welcome ${name}`;
 };
 
