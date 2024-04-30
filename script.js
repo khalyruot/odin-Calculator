@@ -7,10 +7,10 @@ const buttonTwo = document.querySelector("#two");
 const buttonThree = document.querySelector("#three");
 const buttonFour = document.querySelector("#four");
 const buttonFive = document.querySelector("#five");
-const buttonSix = document.querySelctor("#six");
+const buttonSix = document.querySelector("#six");
 const buttonSeven = document.querySelector("#seven");
 const buttonEight = document.querySelector("#eight");
-const buttonNine = document.querySelctor("#nine");
+const buttonNine = document.querySelector("#nine");
 
 buttonOne.onclick = () => {
   const name = prompt("What is your name?");
