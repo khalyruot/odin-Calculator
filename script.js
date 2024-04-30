@@ -4,7 +4,7 @@ var secondNumber = 50;
 
 const buttonOne = document.querySelector("#one");
 const buttonTwo = document.querySelector("#two");
-const buttonThree = document.querySelctor("#three");
+const buttonThree = document.querySelector("#three");
 const buttonFour = document.querySelector("#four");
 const buttonFive = document.querySelector("#five");
 const buttonSix = document.querySelctor("#six");
