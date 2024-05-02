@@ -11,11 +11,11 @@ numbers.forEach(number => {
 	number.addEventListener("click", e => {
 		if(operator == ""){
 			firstNumber += e.target.innerText;
-			console.log(firstNumber);
+			console.log("firstNumber = " + firstNumber);
 		}
 		else{
 			secondNumber += e.target.innerText;
-			console.log(secondNumber);
+			console.log("secondNumber = " + secondNumber);
 		}
 			
 	})
