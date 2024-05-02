@@ -1,5 +1,5 @@
-let firstNumber = '';
 let operator = '';
+let firstNumber = '';
 let secondNumber = '';
 
 const input = document.querySelector(".calculator_display");
