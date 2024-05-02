@@ -2,8 +2,24 @@ let firstNumber = '';
 let operator = '';
 let secondNumber = '';
 
-const input = document.querySelector(".display");
+const input = document.querySelector(".calculator_display");
+const numbers = document.querySelectorAll(".number");
+const operators = document.querySelectorAll(".operator");
 
+
+numbers.forEach(number => {
+	number.eventListener("click", e => {
+		if(operator == ""){
+			firstNumber += e.target.innerText;
+			console.log(firstNumber);
+		}
+		else{
+			secondNumber += e.target.innerText;
+			console.log(secondNumber);
+		}
+			
+	})
+})
 
 function add(firstNumber,secondNumber){
 	return firstNumber+secondNumber;
