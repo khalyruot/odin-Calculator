@@ -9,7 +9,7 @@ const operators = document.querySelectorAll(".operator");
 
 numbers.forEach(number => {
 	number.addEventListener("click", e => {
-		if(operator == ""){
+		if(operators == ""){
 			firstNumber += e.target.innerText;
 			console.log("firstNumber = " + firstNumber);
 		}
