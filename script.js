@@ -12,6 +12,7 @@ numbers.forEach(number => {
 		if(operators == ""){
 			firstNumber += e.target.innerText;
 			console.log("firstNumber = " + firstNumber);
+			console.log("Operators = " + operators);
 		}
 		else{
 			secondNumber += e.target.innerText;
