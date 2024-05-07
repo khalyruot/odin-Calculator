@@ -23,7 +23,7 @@ numbers.forEach(number => {
 	})
 })
 
-operator.forEach(op=>{
+operators.forEach(op=>{
 	op.addEventListener("click",e =>{
 		operator = e.target.innerText;
 		console.log("operator: " + operator)
