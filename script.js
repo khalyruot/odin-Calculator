@@ -23,6 +23,13 @@ numbers.forEach(number => {
 	})
 })
 
+operator.forEach(op=>{
+	op.addEventListener("click",e =>{
+		operator = e.target.innerText;
+		console.log(operator)
+	});
+});
+
 function add(firstNumber,secondNumber){
 	return firstNumber+secondNumber;
 }
