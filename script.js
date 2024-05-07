@@ -17,6 +17,7 @@ numbers.forEach(number => {
 		else{
 			secondNumber += e.target.innerText;
 			console.log("secondNumber = " + secondNumber);
+			console.log("Operators = " + operators);
 		}
 			
 	})
