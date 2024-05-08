@@ -51,15 +51,19 @@ function operate(operator, firstNumber, secondNumber){
     switch(operator){
         case '+':
             return add(firstNumber,secondNumber);
+	    console.log(firstNumber + secondNumber);
             break;
         case '-':
             return sub(firstNumber,secondNumber);
+            console.log(firstNumber - secondNumber);
             break;
         case 'x':
             return multiplication(firstNumber,secondNumber);
+	    console.log(firstNumber * secondNumber);
             break;
         case '/':
             return division(firstNumber,secondNumber);
+	    console.log(firstNumber/secondNumber);
             break;
     }
 }
