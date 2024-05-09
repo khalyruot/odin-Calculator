@@ -30,7 +30,12 @@ input{
     border: solid gray;
 }
 
-#actionButton{
+#clr{
+    height: 80px;
+    width: 200px;
+}
+
+#del{
     height: 80px;
     width: 200px;
 }
