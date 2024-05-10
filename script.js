@@ -3,7 +3,7 @@ let firstNumber = '';
 let secondNumber = '';
 let displayValue = '0';
 
-const input = document.querySelector(".calculator_display");
+const input = document.querySelector(".display");
 const numbers = document.querySelectorAll(".number");
 const operators = document.querySelectorAll(".operator");
 
