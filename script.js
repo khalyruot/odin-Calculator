@@ -1,6 +1,7 @@
 let operator = '';
 let firstNumber = '';
 let secondNumber = '';
+let displayValue = '0';
 
 const input = document.querySelector(".calculator_display");
 const numbers = document.querySelectorAll(".number");
