@@ -69,7 +69,7 @@ function populate(){
      four.addEventListener("click", function(){
          console.log("4");
      });
-     
+      
      five.addEventListener("click", function(){
          console.log("5");
      });
@@ -91,9 +91,3 @@ function populate(){
      });
      
 }
-
-function generateDisplay(){
-
-	
-}
-
