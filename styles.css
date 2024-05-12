@@ -23,14 +23,19 @@ input{
     align-items: center;
 }
 
-.calculator_display{
+.display{
     height: 80px;
     width: 400px;
     border-radius: 5px;
     border: solid gray;
 }
 
-#actionButton{
+#clr{
+    height: 80px;
+    width: 200px;
+}
+
+#del{
     height: 80px;
     width: 200px;
 }
