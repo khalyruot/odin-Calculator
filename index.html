@@ -1,48 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+  <title>Cool Calc</title>
 </head>
+
 <body>
+  <section class="desktop">
+    <div class="calcBody">
+      <div class="display"></div>
+      <div class="buttonRow">
+        <div class="btn specialBtn" id="acBtn">AC</div>
+        <div class="btn specialBtn" id="plusMinusBtn">+/-</div>
+        <div class="btn specialBtn" id="moduloBtn">%</div>
+        <div class="btn operationBtn" id="divideBtn">/</div>
+      </div>
+      <div class="buttonRow">
+        <div class="btn numberBtn" id="sevenBtn">7</div>
+        <div class="btn numberBtn" id="eightBtn">8</div>
+        <div class="btn numberBtn" id="nineBtn">9</div>
+        <div class="btn operationBtn" id="multiplyBtn">x</div>
+      </div>
+      <div class="buttonRow">
+        <div class="btn numberBtn" id="fourBtn">4</div>
+        <div class="btn numberBtn" id="fiveBtn">5</div>
+        <div class="btn numberBtn" id="sixBtn">6</div>
+        <div class="btn operationBtn" id="substractBtn">-</div>
+      </div>
+      <div class="buttonRow">
+        <div class="btn numberBtn" id="oneBtn">1</div>
+        <div class="btn numberBtn" id="twoBtn">2</div>
+        <div class="btn numberBtn" id="threeBtn">3</div>
+        <div class="btn operationBtn" id="addBtn">+</div>
+      </div>
+      <div class="buttonRow">
+        <div class="btn numberBtn" id="zeroBtn">0</div>
+        <div class="btn numberBtn" id="pointBtn">.</div>
+        <div class="btn specialBtn" id="equalsBtn">=</div>
+      </div>
 
-    <div class="display">
-        <input type="field" id="userinput" placeholder="">
-        <p id = "result-display">
-        </p>
     </div>
-
-
-    <div class="calculator_keys">
-
-        <div id="main_type">
-            <div><button class = "clear" value = "" id = "clr">CLEAR</button></div>
-            <div><button value = "" class = "delete" id = "del">DELETE</button></div>
-            
-        </div>
-
-        
-        <div><button value = 1 class = "number" id = "one">1</button></div>
-        <div><button value = 2 class = "number" id = "two">2</button></div>
-        <div><button value = 3 class = "number" id = "three">3</button></div>
-        <div><button value = + class="operator">+</button></div>
-        <div><button value = 4 class = "number" id = "four">4</button></div>
-        <div><button value = 5 class = "number" id = "five">5</button></div>
-        <div><button value = 6 class = "number" id = "six">6</button></div>
-        <div><button value = - class="operator">-</button></div>
-        <div><button value = 7 class = "number" id = "seven">7</button></div>
-        <div><button value = 8 class = "number" id = "eight">8</button></div>
-        <div><button value = 9 class = "number" id = "nine">9</button></div>
-        <div><button value = * class="operator">x</button></div>
-        <div><button data-action="decimal">.</button></div>
-        <div><button value = 0 class = "number" id = "zero">0</button></div>
-        <div><button value = "=" class = "equal" id = "equal">=</button></div>
-        <div><button value = / class="operator">/</button></div>
-    </div>
+  </section>
 
 </body>
-</body>
+
 </html>
