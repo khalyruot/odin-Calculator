@@ -53,12 +53,12 @@ h6 {
 /* -------------------------------- CSS reset ------------------------------- */
 :root {
   --background: #f9f9fb;
-  --dark: #101011;
-  --grey: #ebebf3;
+  --dark: #2828a3;
+  --grey: #303066;
   --primary: #009FB7;
   --primaryActive: #55c4d5;
-  --secondary: #FED766;
-  --secondaryActive: #fbe6a7;
+  --secondary: #6ac24f;
+  --secondaryActive: #52441a;
   --accent: #FE4A49;
   --accentActive: #f77c7c;
 }
